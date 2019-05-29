@@ -1,7 +1,15 @@
-body {
-    margin: 20px;
+h1 {
+    margin: 30px;
 }
 
-.navBar {
-    margin: 20px; 
+.navBar { 
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+p {
+    margin: 30px;
 }
