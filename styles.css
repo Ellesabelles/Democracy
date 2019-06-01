@@ -1,22 +1,29 @@
 a {
     color: black;
+    text-decoration: underline;
 }
 
-h1 {
-    margin: 30px;
+body {
+    font: verdana;
 }
-
 .centralViz {
     padding: 30px;
 }
+
 .navBar { 
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 20px;
     background-color: lightblue;
     color: white;
     font-weight: bold;
     font-size: 22px;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 30px;
 }
 
 p {
