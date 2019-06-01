@@ -2,9 +2,12 @@ h1 {
     margin: 30px;
 }
 
+.centralViz {
+    padding: 30px;
+}
 .navBar { 
     padding: 20px;
-    background-color: blue;
+    background-color: lightblue;
     color: white;
     font-weight: bold;
     font-size: 22px;
