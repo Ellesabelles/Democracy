@@ -104,14 +104,16 @@ h3 {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .centralText {
+        padding-top: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
     .centralViz {
         padding-top: 15px;
         padding-left: 0px;
         padding-right: 0px;
-    }
-
-    .miniNav {
-        justify-content: flex-start;
     }
 
     .rectangle {	
