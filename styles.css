@@ -4,8 +4,6 @@ a {
 }
 
 .a-visual-exploration {	
-    height: 22px;	
-    width: 533px;	
     color: #232323;	
     font-family: Verdana;	
     font-size: 18px;	
@@ -22,14 +20,18 @@ body {
 }
 
 .centralText {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 17%;
+    padding-right: 15%;
+    padding-top: 70px;
+}
+
+.centralViz {
+    padding-left: 17%;
+    padding-right: 15%;
     padding-top: 70px;
 }
 
 .democracy {	
-    height: 57px;	
-    width: 314px;
     color: #293E67;	
     font-family: Georgia;	
     font-size: 50px;	
@@ -83,8 +85,8 @@ h3 {
     font-weight: bold;	
     display: flex;
     justify-content: space-around;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .navBar a {
@@ -100,3 +102,28 @@ h3 {
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .centralViz {
+        padding-top: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .miniNav {
+        justify-content: flex-start;
+    }
+
+    .rectangle {	
+        height: 100px;	
+        width: 100%;	
+        background-color: #D5F1F5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tableauPlaceholder {
+        width: 100%;
+    }
+  }
