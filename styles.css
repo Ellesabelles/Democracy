@@ -3,33 +3,86 @@ a {
     text-decoration: underline;
 }
 
+.a-visual-exploration {	
+    height: 22px;	
+    width: 533px;	
+    color: #232323;	
+    font-family: Verdana;	
+    font-size: 18px;	
+    line-height: 22px;
+}
+
 body {
     font: verdana;
 }
-.centralViz {
-    padding: 50px;
+
+.centralText {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 70px;
+}
+
+.democracy {	
+    height: 57px;	
+    width: 314px;
+    color: #293E67;	
+    font-family: Georgia;	
+    font-size: 50px;	
+    font-style: italic;	
+    font-weight: bold;	
+    letter-spacing: -0.3px;	
+    line-height: 57px;	
+    text-align: center;
 }
 
 .navBar { 
+    height: 55px;	
+    width: 100%;	
+    background-color: #293E67;
+    color: #FFFFFF;	
+    font-family: Verdana;	
+    font-size: 18px;	
+    font-weight: bold;	
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    background-color: lightblue;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.navBar a {
     color: white;
-    font-weight: bold;
-    font-size: 22px;
     text-decoration: none;
 }
 
-h1 {
-    margin: 30px;
+h1 {		
+    color: #232323;	
+    font-family: Verdana;	
+    font-size: 36px;	
+    font-weight: bold;	
+    line-height: 44px;
 }
 
 h2 {
-    margin: 30px;
+    color: #232323;	
+    font-family: Verdana;	
+    font-size: 30px;	
+    line-height: 36px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
-p {
-    margin: 30px;
+h3 {	
+    color: #232323;	
+    font-family: Verdana;	
+    font-size: 22px;	
+    line-height: 27px;
+}
+
+.rectangle {	
+    height: 100px;	
+    width: 100%;	
+    background-color: #D5F1F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
