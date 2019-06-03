@@ -12,6 +12,11 @@ a {
     line-height: 22px;
 }
 
+.activated {
+        height: 3px;
+        background-color: rgba(255,255,255,0.5);
+}
+
 body {
     font: verdana;
 }
@@ -33,25 +38,6 @@ body {
     letter-spacing: -0.3px;	
     line-height: 57px;	
     text-align: center;
-}
-
-.navBar { 
-    height: 55px;	
-    width: 100%;	
-    background-color: #293E67;
-    color: #FFFFFF;	
-    font-family: Verdana;	
-    font-size: 18px;	
-    font-weight: bold;	
-    display: flex;
-    justify-content: space-around;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.navBar a {
-    color: white;
-    text-decoration: none;
 }
 
 h1 {		
@@ -76,6 +62,34 @@ h3 {
     font-family: Verdana;	
     font-size: 22px;	
     line-height: 27px;
+}
+
+.miniNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.miniNav a {
+    color: blue;
+}
+
+.navBar { 
+    height: 55px;	
+    width: 100%;	
+    background-color: #293E67;
+    color: #FFFFFF;	
+    font-family: Verdana;	
+    font-size: 18px;	
+    font-weight: bold;	
+    display: flex;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.navBar a {
+    color: white;
+    text-decoration: none;
 }
 
 .rectangle {	
