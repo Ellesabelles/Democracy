@@ -42,6 +42,15 @@ body {
     text-align: center;
 }
 
+footer {
+    background-color: lightgray;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
 h1 {		
     color: #232323;	
     font-family: Verdana;	
