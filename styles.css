@@ -103,6 +103,11 @@ h3 {
     text-decoration: none;
 }
 
+
+.otherNav a {
+    color: blue;
+}
+
 .rectangle {	
     height: 100px;	
     width: 100%;	
