@@ -20,38 +20,57 @@
             A visual exploration of democratic trends around the world
         </div>
     </div>
-    <div class="navBar" > 
-        <a href="measuring.html">Measuring Democracy</a>
-        <a href="autocracy.html">Democratic Erosion
-            <div class="activated">
+    <div class="navBar" >
+        <div class="equalBoxL">
+            <div class="topLine">
+                    EXPLORE:
             </div>
-        </a>  
-        <a href="country.html">Country Detail</a>
-        <a href="index.html">About
-        </a>
-    </div>
+            <div class="links">
+                <a href="index.html">Measuring Democracy</a> 
+                <a href="country.html">Country Detail</a>
+            </div> 
+        </div>
+        <div class="equalBoxR">
+            <div class="topLine">
+                    LEARN:
+                </div>
+            <div class="links">
+                <a href="autocracy.html">Democratic Erosion
+                    <div class="activated">
+                    </div>
+                </a> 
+                <a href="about.html">About</a>
+            </div>  
+        </div>
+    </div>  
     <div class="centralViz">
         <h1>Democratic Erosion</h1>
         <div class="otherNav">
-                <a href="#erosion">What is democratic erosion?</a>
-                <br />
-                <a href="#understanding">Why should I understand this data?</a>
-                <br />
-                <a href="#how">How is democratic erosion defined?</a>
-                <br >
-                <a href="#exploring">What should I explore when trying to understand the data?</a>
-                <br />
-                <a href="#censorship">Censorship in the Media</a>
-                <br />
-                <a href="#fraud">Voter Fraud</a>
-                <br >
-                <a href="#references">References</a>
-            </div>
+            <h3>On this page</h3>
+            <a href="#erosion">What is democratic erosion?</a>
+            <br />
+            <a href="#understanding">Why should I understand this data?</a>
+            <br />
+            <a href="#how">How is democratic erosion defined?</a>
+            <br >
+            <a href="#exploring">What should I explore when trying to understand the data?</a>
+            <br />
+            <a href="#censorship">Explore Censorship in the Media</a>
+            <br />
+            <a href="#fraud">Explore Voter Fraud</a>
+            <br >
+            <a href="#references">References</a>
+        </div>
         <br />
         <h2 id="erosion">What is democratic erosion?</h2>
-        <p>The ways in which autocrats come to power and democracies are destroyed are different today than they were before. Previously (1900 - 1993), autocrats seized power in a very obvious manner. They used tactics that involved violence, such as military coups and invasions, as well as obvious takeovers of power (e.g. autogolpe). Today (1994 - Present), the rise of autocracies happens under the guise of democracy and free and fair elections. 70% of autocratization episodes take place through "democratic erosion". Democratic erosion involves the gradual demise of fair elections and exchanges of power, and the eventual reduction of democratic principles of governing.</p>
-        <img src="barGraphAutocracy.png" alt="Autocracy Explained" height="500px" /> 
-        <h6><a href="https://www.tandfonline.com/doi/full/10.1080/13510347.2019.1613980">(Lührmann & Lindberg, 2019)</a></h6>
+        <p>The ways in which autocrats come to power and democracies are destroyed are different today than they were 
+            before. Previously (1900 - 1993), autocrats seized power in a very obvious manner. They used tactics that 
+            involved violence, such as military coups and invasions, as well as obvious takeovers of power 
+            (e.g. autogolpe, in which a nation's leader, despite having come to power legally, makes the national legislature powerless and assumes powers not granted under normal circumstances). Today (1994 - Present), the rise of autocracies happens under the guise of democracy and 
+            free and fair elections. 70% of autocratization episodes take place through "democratic erosion". Democratic 
+            erosion involves the gradual demise of fair elections and exchanges of power, and the eventual reduction of democratic principles of governing.</p>
+            <img src="barGraphAutocracy.png" alt="Autocracy Explained" height="500px" /> 
+            <h6><a href="https://www.tandfonline.com/doi/full/10.1080/13510347.2019.1613980">(Lührmann & Lindberg, 2019)</a></h6>
         <h2 id="understanding">Why should I understand this data?</h2>
         <p>In the 1980s and 1990s the world was in a state of democratic dominance. Unfortunately, as of 1994 we entered an era in which autocracies are on the rise and democracies are eroding. This trend is continuing world-wide.</p>
         <img src="lineGraphAutocracy.png" alt="Autocracy Comes in Waves" height="450px"/>
@@ -59,7 +78,7 @@
         <p>The goal of our data visualizations is to help citizens stay informed about both the state of democracy in the world and in their country, as well as allow citizens to explore which factors may indicate that their country is changing for the better or for the worse in terms of the health of its democracy. Through this data, citizens can stay engaged and can understand which indicators to advocate for to preserve or improve the health of their democracy.</p>
         <h2 id="how">How is democratic erosion defined? </h2>
         <p>V-Dem’s index for liberal democracy consists of the Electoral Democracy Index (EDI) and the Liberal Component Index (LCI). EDI measures to what extent electoral democracy is achieved, while while LCI measures the support of democracy from supplements such as spread of power in the government and respect for civil liberties.</p>
-        <p>Our data visualizations focus on EDI. The V-Dem codebook (v9) states that EDI is operationalized as the following: <br />
+        <p>Our data visualizations focus on EDI. The <a href="https://doi.org/10.23696/vdemcy19">V-Dem codebook (v9)</a> states that EDI is operationalized as the following: <br />
                 “The electoral principle of democracy seeks to embody the core value of making rulers responsive to citizens, achieved through electoral competition for the electorate’s approval under circumstances when suﬀrage is extensive; political and civil society organizations can operate freely; elections are clean and not marred by fraud or systematic irregularities; and elections aﬀect the composition of the chief executive of the country. In between elections, there is freedom of expression and an independent media capable of presenting alternative views on matters of political relevance.” (Coppedge et al., 2019)</p>
         <p>The scale goes from 0 - 1, respectively low to high electoral representative democracy.</p>
         <p>There are other indicators that ladder up to the EDI measure. These indicators include:</p>
@@ -72,60 +91,26 @@
         </ul>
         <h2 id="exploring">What should I explore when trying to understand the data?</h2>
         <p>In addition to EDI and the sub-indicators that create this measure, the V-Dem data set has many other relevant indicators. Depending on (1) the country you are looking at and (2) the years that you are viewing, different indicators may or may not be strongly correlated with electoral democracy, as measured by EDI. We recommend exploring to understand which indicators are relevant to the country of your interest, so that you can be more informed about issues that could be impacting the health of democracy in your country.</p>
-        <p>As an example, indicators, such as ‘censorship of the media’ and ‘voting fraud,’ are currently correlated with EDI worldwide. However, these indicators had a much looser correlation in the First Wave of autocratization. </p>
-        <h3 id="censorship">Censorship of the Media & Electoral Democracy in the First and Third Waves</h3>
-        <div class='tableauPlaceholder' id='viz1559691329181' style='position: relative'><noscript><a href='#'>
-        <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DemocracyDatatoShare&#47;Censorshipofthemedai1stwave&#47;1_rss.png' style='border: none' /></a>
-        </noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-        <param name='embed_code_version' value='3' /> 
-        <param name='site_root' value='' />
-        <param name='name' value='DemocracyDatatoShare&#47;Censorshipofthemedai1stwave' />
-        <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DemocracyDatatoShare&#47;Censorshipofthemedai1stwave&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
-        <param name='display_overlay' value='yes' />
-        <param name='display_count' value='yes' />
-        <param name='filter' value='publish=yes' /></object></div>                
-        <script type='text/javascript'>                    
-        var divElement = document.getElementById('viz1559691329181');                    
-        var vizElement = divElement.getElementsByTagName('object')[0];                    
-        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-        var scriptElement = document.createElement('script');                    
-        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-        </script>
+        <p>As an example, indicators such as ‘censorship of the media’ and ‘voting fraud,’ are currently correlated with EDI worldwide. However, these indicators had a much looser correlation in the First Wave of autocratization. </p>
+        <h3 id="censorship">Explore Censorship of the Media</h3>
+        <div class="staticViz">
+            <img class="staticVizImage" src="CensorshipFirstWave.png" alt="Censorship & Democracy in the Past" /> 
+            &nbsp; &nbsp; &nbsp; &nbsp; 
+            <img class="staticVizImage" src="CensorshipPresent.png" alt="Censorship & Democracy Now" /> 
+        </div>
+        <h1>Placeholder for Censorship Viz</h1>
         <br />
         <br />
-        <div class='tableauPlaceholder' id='viz1559691549711' style='position: relative'>
-        <noscript>
-            <a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DemocracyDatatoShare&#47;Censorshipofthemedia3rdwave&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                <param name='embed_code_version' value='3' /> 
-                <param name='site_root' value='' />
-                <param name='name' value='DemocracyDatatoShare&#47;Censorshipofthemedia3rdwave' />
-                <param name='tabs' value='no' />
-                <param name='toolbar' value='yes' />
-                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DemocracyDatatoShare&#47;Censorshipofthemedia3rdwave&#47;1.png' /> 
-                <param name='animate_transition' value='yes' />
-                <param name='display_static_image' value='yes' />
-                <param name='display_spinner' value='yes' />
-                <param name='display_overlay' value='yes' />
-                <param name='display_count' value='yes' />
-                <param name='filter' value='publish=yes' />
-            </object>
-        </div>                
-        <script type='text/javascript'>                    
-        var divElement = document.getElementById('viz1559691549711');                    
-        var vizElement = divElement.getElementsByTagName('object')[0];                    
-        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-        var scriptElement = document.createElement('script');                    
-        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-        </script>
+        <h3 id="fraud">Explore Voter Fraud</h3>
+        <div class="staticViz">
+                <img class="staticVizImage" src="VoterFraudFirstWave.png" alt="Voter Fraud & Democracy in the Past" /> 
+                &nbsp; &nbsp; &nbsp; &nbsp; 
+                <img class="staticVizImage" src="VoterFraudPresent.png" alt="Voter Fraud & Democracy Now" /> 
+            </div>
+            <h1>Placeholder for Voter Fraud Viz</h1>
+            <br />
         <br />
-        <br />
-        <h3 id="fraud">Voter Fraud in the First and Third Waves</h3>
-        <div class='tableauPlaceholder' id='viz1559693826681' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DemocracyDatatoShare_15596937417410&#47;Votefraud1stwave&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DemocracyDatatoShare_15596937417410&#47;Votefraud1stwave' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DemocracyDatatoShare_15596937417410&#47;Votefraud1stwave&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1559693826681');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <br />
-        <br />
-        <div class='tableauPlaceholder' id='viz1559694031933' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DemocracyDatatoShare_15596937417410&#47;Votefraud3rdwave&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DemocracyDatatoShare_15596937417410&#47;Votefraud3rdwave' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DemocracyDatatoShare_15596937417410&#47;Votefraud3rdwave&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1559694031933');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <br />
+        
     <h2 id="references">References </h2>
     <p>Anna Lührmann, Sandra Grahn, Richard Morgan, Shreeya Pillai, Staffan I. Lindberg. (2019) <a href="https://www.tandfonline.com/doi/full/10.1080/13510347.2019.1613980">State of the world 2018: democracy facing global challenges</a>. Democratization 0:0, pages 1-21.</p>
     <p>Anna Lührmann, Staffan I. Lindberg. (2019) <a href="https://www.tandfonline.com/doi/full/10.1080/13510347.2019.1582029">A third wave of autocratization is here: what is new about it?</a>. Democratization 0:0, pages 1-19.</p>

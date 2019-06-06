@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Democracy- About</title>
+  <title>Democracy!</title>
   <link rel="stylesheet"
         type="text/css"
         href="bootstrap.css"
@@ -13,59 +13,65 @@
 <body>
     <div class="rectangle">
         <div class="democracy">
-            Democracy!
+                Democracy!
         </div>
         &nbsp; &nbsp;
         <div class="a-visual-exploration">
             A visual exploration of democratic trends around the world
         </div>
     </div>
-    <div class="navBar" > 
-        <a href="measuring.html">Measuring Democracy</a>
-        <a href="autocracy.html">Democratic Erosion</a>
-        <a href="country.html">Country Detail</a>
-        <a href="index.html">About
-            <div class="activated">
+    <div class="navBar" >
+            <div class="equalBoxL">
+                <div class="topLine">
+                        EXPLORE:
+                </div>
+                <div class="links">
+                    <a href="index.html">Measuring Democracy
+                        <div class="activated">
+                        </div>
+                    </a> 
+                    <a href="country.html">Country Detail</a>
+                </div> 
             </div>
-        </a>
-    </div>
+            <div class="equalBoxR">
+                <div class="topLine">
+                        LEARN:
+                    </div>
+                <div class="links">
+                    <a href="autocracy.html">Democratic Erosion</a> 
+                    <a href="about.html">About</a>
+                </div>  
+            </div>
+        </div>  
     <div class="centralText">
-        <h1>About</h1>
-        <div class="miniNav">
-                <a href="#project">About this Project</a>
-                
-            &nbsp; &nbsp; | &nbsp; &nbsp;
-            <a href="#data">About the Data</a>
-        </div>
-        <h2 id="project">About this Project</h2> 
-        <p> 
-            This project was created at the University of Washington for the Department of Human Centered Design and Engineering's Information Visualization class. The collaborators on this project were Megan Brown, <a href="http://sms.design/">Samantha Muscat-Scherr</a>, Camila Proffitt, Ellen Reed, and Spencer Wilkerson.
-            <br />
-            <br />
-            We set out to explore the erosion of democracy around the world. We are currently experiencing a wave of autocratization around the world, the third such wave of the modern era. In 2019, almost one third of people in the world live in countries that are experiencing <a href="autocracy.html">democratic erosion</a>, many of them with powerful economies and significant global influence, such as India, Brazil, and the United States. The first wave, 1922 to 1942, ended in a world war. The second wave, 1960 to 1975, saw the rise of authoritarian regimes around the world, followed by massive increases in political violence. It is our hope that, by studying democracy and the factors that contribute to its decline, we can generate ideas to reverse the tide and prevent a similar fate befalling us a third time.
-            <br />
-            <br />
-            The first two waves were characterized largely by sudden episodes, such as coups, invasions, or dictators seizing power, while the third wave is largely happening more gradually and insidiously under a facade of legitimacy. Leaders are swept to power through normal elections, and then seek to undermine and chip away at the democratic institutions in their country without abolishing them outright. The first two waves also mostly affected countries that were struggling to establish stable democratic systems, whereas this most recent wave is primarily affecting established liberal democracies.
-            <br />
-            <br />
-            As we face increasing societal polarization through social media and state-orchestrated disinformation campaigns, it is important to remember that the share of democracies in the world is near the highest it’s ever been, at greater than 50%. Democratization is still occurring in many parts of the world, and it is still early enough to make a change.
-            <br />
-            <br />
-            Our data is displayed so that you may explore and compare countries across multiple indicators and reach your own conclusions. While it is outside the scope of this project to provide social context for every country, we encourage people to investigate our data and supplement our findings with their own research.
+        <h1>Measuring Democracy</h1>
+        <p>The Electoral Democracy Index is the conglomeration of five high-level indices that measure 
+            the degree to which a country attains the core values of democracy, where: 
+            <ul>
+                <li>rulers are accountable to their citizens;</li>
+                <li>elections are held regularly, openly, and fairly for majority approval;</li>
+                <li>the right to vote is widespread; </li>
+                <li>political parties and civil societies are able to operate free from government interference; and</li>
+                <li>citizens enjoy freedom of expression publicly and privately and benefit from an 
+                independent media that presents diverse viewpoints on political issues.</li>
+            </ul>   
+            In V-Dem, EDI is the foundational element of all five major indices, and the truest 
+            indicator of representative democracy in the data set.
         </p>
-        <h2 id="data">About the Data</h2>
         <p>
-            <a href="https://www.v-dem.net/en/">Varieties of Democracy (V-Dem)</a> is a social science data set collected and managed by the University of Gothenburg in Sweden. This research is founded on the concept of democracy as going beyond the mere presence or absence of elections. V-Dem is designed to conceptualize and measure democracy in a multidimensional way. The set contains over 450 indicators that are grouped hierarchically into five high-level indices. Indicators measure topics as diverse as media censorship, judicial independence,socioeconomic inequality, corruption, and hundreds of other aspects affecting democracy. Overall, there are more than 19 million data points. We used <a href="https://www.v-dem.net/en/data/data-version-9/">version 9 of the Varieties of Democracy dataset</a>. 
-            <br />
-            <br />
-            Data is collected by over 50 social scientists working with more than 3,000 country experts. Each low-level indicator is scored by five experts for each country, whose scores are then averaged and weighted to produce a single value for a single indicator in a single year. These low-level indicators are combined through algorithms to produce mid-level indicators, which in turn are aggregated into the five high-level indicators.
-            The set covers 202 countries and contains data from 1789 to today, where possible.
+        This chart shows the change in electoral democracy over time. This index is a measure of polyarchy, 
+        literally “rule of many,” or the response of the government to the needs of its citizens and their role 
+        as political equals. A higher score indicates greater polyarchy, while a lower score indicates greater 
+        autocracy (a system of government where one person rules with absolute power).   
         </p>
-        <br />
-        <br />
     </div>
+    <div class="centralViz">
+        <div class='tableauPlaceholder' id='viz1559696986823' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDITS-HCDE511_VdemWkbk1&#47;EDIByCountry&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='EDITS-HCDE511_VdemWkbk1&#47;EDIByCountry' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ED&#47;EDITS-HCDE511_VdemWkbk1&#47;EDIByCountry&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1559696986823');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='1327px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='1327px';} else { vizElement.style.width='100%';vizElement.style.height='2877px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div> 
+    <br />
+    <br />
     <footer>
             Created in 2019 by Megan Brown, Samantha Muscat-Scherr, Camila Proffitt, Ellen Reed, and Spencer Wilkerson. 
     </footer>
-    </body>
+</body>
 </html>
